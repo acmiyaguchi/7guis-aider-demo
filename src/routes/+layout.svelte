@@ -12,12 +12,6 @@
   ];
 </script>
 
-<style>
-  main {
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-</style>
 
 <Navigation {links} />
 <slot />

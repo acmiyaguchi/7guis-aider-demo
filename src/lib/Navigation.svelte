@@ -3,27 +3,16 @@
 </script>
 
 <style>
-  nav {
-    padding: 10px;
-  }
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
   }
   a {
     text-decoration: none;
     color: black;
-  }
-
-  @media (max-width: 600px) and (orientation: portrait) {
-    ul {
-      flex-direction: column;
-      align-items: flex-start;
-    }
   }
 </style>
 
