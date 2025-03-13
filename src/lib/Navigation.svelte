@@ -4,7 +4,6 @@
 
 <style>
   nav {
-    background-color: #333;
     padding: 10px;
   }
   ul {
@@ -12,20 +11,11 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
-  }
-  li {
-    display: inline;
+    gap: 10px;
   }
   a {
-    color: white;
     text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-  }
-  a:hover {
-    background-color: #555;
+    color: black;
   }
 </style>
 
