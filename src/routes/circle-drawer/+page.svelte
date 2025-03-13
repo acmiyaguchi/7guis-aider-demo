@@ -1,5 +1,20 @@
 <script>
+  import { onMount } from 'svelte';
+
   let circles = [];
+  let svgWidth = 500;
+  let svgHeight = 500;
+
+  onMount(() => {
+    updateCanvasSize();
+    window.addEventListener('resize', updateCanvasSize);
+    return () => window.removeEventListener('resize', updateCanvasSize);
+  });
+
+  function updateCanvasSize() {
+    svgWidth = Math.min(window.innerWidth - 40, 500);
+    svgHeight = Math.min(window.innerHeight - 200, 500);
+  }
   let radius = 10;
 
   function addCircle(event) {
@@ -15,7 +30,12 @@
     <label for="radius">Radius:</label>
     <input type="range" id="radius" bind:value={radius} min="1" max="100" />
   </div>
-  <svg on:click={addCircle} style="border: 1px solid black; width: 100%; height: auto; max-width: 500px; max-height: 500px;">
+  <svg
+    on:click={addCircle}
+    style="border: 1px solid black;"
+    {svgWidth}
+    {svgHeight}
+  >
     {#each circles as { x, y, radius }}
       <circle cx={x} cy={y} r={radius} fill="blue" />
     {/each}
