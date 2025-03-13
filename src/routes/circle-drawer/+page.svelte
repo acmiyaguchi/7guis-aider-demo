@@ -13,7 +13,7 @@
 
   function updateCanvasSize() {
     svgWidth = Math.min(window.innerWidth - 40, 500);
-    svgHeight = Math.min(window.innerHeight - 200, 500);
+    svgHeight = Math.min(window.innerHeight - 100, window.innerWidth - 40);
   }
   let radius = 10;
 
