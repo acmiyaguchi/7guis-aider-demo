@@ -1,12 +1,14 @@
 <script>
   let time = 0;
+  let milliseconds = 0;
   let interval;
 
   function start() {
     if (!interval) {
       interval = setInterval(() => {
-        time += 1;
-      }, 1000);
+        milliseconds += 10;
+        time = (milliseconds / 1000).toFixed(2);
+      }, 10);
     }
   }
 
