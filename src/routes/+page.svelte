@@ -8,13 +8,13 @@
 <section>
   <h2>Task Descriptions</h2>
   <ul>
-    <li><strong>Counter:</strong> A simple task to increment and decrement a counter value.</li>
-    <li><strong>Temperature Converter:</strong> Convert temperatures between Celsius and Fahrenheit.</li>
-    <li><strong>Flight Booker:</strong> Book a one-way or return flight with date selection.</li>
-    <li><strong>Timer:</strong> A countdown timer with start, stop, and reset functionality.</li>
-    <li><strong>CRUD:</strong> Create, Read, Update, and Delete entries in a list.</li>
-    <li><strong>Circle Drawer:</strong> Draw and manipulate circles on a canvas.</li>
-    <li><strong>Cells:</strong> A simple spreadsheet-like application.</li>
+    <li><strong><a href="/counter">Counter:</a></strong> A simple task to increment and decrement a counter value.</li>
+    <li><strong><a href="/temperature-converter">Temperature Converter:</a></strong> Convert temperatures between Celsius and Fahrenheit.</li>
+    <li><strong><a href="/flight-booker">Flight Booker:</a></strong> Book a one-way or return flight with date selection.</li>
+    <li><strong><a href="/timer">Timer:</a></strong> A countdown timer with start, stop, and reset functionality.</li>
+    <li><strong><a href="/crud">CRUD:</a></strong> Create, Read, Update, and Delete entries in a list.</li>
+    <li><strong><a href="/circle-drawer">Circle Drawer:</a></strong> Draw and manipulate circles on a canvas.</li>
+    <li><strong><a href="/cells">Cells:</a></strong> A simple spreadsheet-like application.</li>
   </ul>
 </section>
 
