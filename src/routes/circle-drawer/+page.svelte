@@ -8,7 +8,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task allows drawing and manipulating circles on a canvas.</p>
   <h1>Circle Drawer</h1>
   <svg width="500" height="500" on:click={addCircle}>

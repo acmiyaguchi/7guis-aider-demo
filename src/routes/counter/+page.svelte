@@ -10,7 +10,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task is a simple counter that can be incremented and decremented.</p>
   <h1>Counter</h1>
   <button on:click={decrement}>-</button>

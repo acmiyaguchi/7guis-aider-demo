@@ -21,7 +21,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task is a countdown timer with start, stop, and reset functionality.</p>
   <h1>Timer</h1>
   <div>{time} seconds</div>

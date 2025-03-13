@@ -11,7 +11,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task converts temperatures between Celsius and Fahrenheit.</p>
   <h1>Temperature Converter</h1>
   <div>

@@ -8,7 +8,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task allows booking a one-way or return flight.</p>
   <h1>Flight Booker</h1>
   <select bind:value={flightType}>

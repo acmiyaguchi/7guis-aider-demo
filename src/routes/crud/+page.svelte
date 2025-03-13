@@ -14,7 +14,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task involves Create, Read, Update, and Delete operations on a list of items.</p>
   <h1>CRUD</h1>
   <input type="text" bind:value={newItem} />

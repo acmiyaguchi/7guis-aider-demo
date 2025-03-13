@@ -6,7 +6,7 @@
   }
 </script>
 
-<main>
+<main style="border: 1px solid black; padding: 10px;">
   <p>This task is a simple spreadsheet-like application.</p>
   <h1>Cells</h1>
   <table>
