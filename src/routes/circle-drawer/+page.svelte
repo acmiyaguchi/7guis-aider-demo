@@ -13,7 +13,7 @@
   <h1>Circle Drawer</h1>
   <div>
     <label for="radius">Radius:</label>
-    <input type="number" id="radius" bind:value={radius} min="1" />
+    <input type="range" id="radius" bind:value={radius} min="1" max="100" />
   </div>
   <svg width="500" height="500" on:click={addCircle} style="border: 1px solid black;">
     {#each circles as { x, y, radius }}
