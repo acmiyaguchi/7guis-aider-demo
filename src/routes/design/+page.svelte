@@ -1,6 +1,6 @@
 <script context="module">
   export async function load() {
-    const response = await import('../../docs/DESIGN.md');
+    const response = await import('./DESIGN.svx');
     return {
       designContent: response.default
     };
