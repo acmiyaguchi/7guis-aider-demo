@@ -12,10 +12,18 @@
     padding: 0;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
   }
   a {
     text-decoration: none;
     color: black;
+  }
+
+  @media (max-width: 600px) {
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 </style>
 
