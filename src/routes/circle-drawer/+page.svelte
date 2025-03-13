@@ -11,7 +11,11 @@
 <main style="border: 1px solid black; padding: 10px;">
   <p>This task allows drawing and manipulating circles on a canvas.</p>
   <h1>Circle Drawer</h1>
-  <svg width="500" height="500" on:click={addCircle}>
+  <div>
+    <label for="radius">Radius:</label>
+    <input type="number" id="radius" bind:value={radius} min="1" />
+  </div>
+  <svg width="500" height="500" on:click={addCircle} style="border: 1px solid black;">
     {#each circles as { x, y, radius }}
       <circle cx={x} cy={y} r={radius} fill="blue" />
     {/each}
