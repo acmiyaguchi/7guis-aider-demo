@@ -1,6 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-
 <section>
   <h2>About 7GUI Tasks</h2>
   <p>The 7GUI tasks are a set of common GUI programming challenges designed to test the expressiveness and capabilities of UI frameworks. These tasks provide a benchmark for comparing different frameworks and their ability to handle typical user interface scenarios.</p>
