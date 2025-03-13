@@ -19,7 +19,7 @@
     color: black;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 600px) and (orientation: portrait) {
     ul {
       flex-direction: column;
       align-items: flex-start;
