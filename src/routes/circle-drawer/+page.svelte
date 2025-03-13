@@ -15,7 +15,7 @@
     <label for="radius">Radius:</label>
     <input type="range" id="radius" bind:value={radius} min="1" max="100" />
   </div>
-  <svg width="500" height="500" on:click={addCircle} style="border: 1px solid black;">
+  <svg on:click={addCircle} style="border: 1px solid black; width: 100%; height: auto; max-width: 500px; max-height: 500px;">
     {#each circles as { x, y, radius }}
       <circle cx={x} cy={y} r={radius} fill="blue" />
     {/each}
