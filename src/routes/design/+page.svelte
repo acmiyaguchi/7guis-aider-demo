@@ -1,3 +1,12 @@
+<script context="module">
+  export async function load() {
+    const response = await import('./DESIGN.svx');
+    return {
+      designContent: response.default
+    };
+  }
+</script>
+
 <script>
   export let data;
 </script>
