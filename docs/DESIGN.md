@@ -18,14 +18,17 @@ This project aims to implement the 7GUI tasks using SvelteKit to create a purely
 7. **Cells**: A simple spreadsheet-like application.
 
 ## Component Structure
-Each task will be implemented as a separate Svelte component. The components will be organized as follows:
-- `src/routes/counter.svelte`
-- `src/routes/temperature-converter.svelte`
-- `src/routes/flight-booker.svelte`
-- `src/routes/timer.svelte`
-- `src/routes/crud.svelte`
-- `src/routes/circle-drawer.svelte`
-- `src/routes/cells.svelte`
+Each task is implemented as a separate Svelte component, organized using SvelteKit's routing convention. The components are organized as follows:
+- `src/routes/counter/+page.svelte`
+- `src/routes/temperature-converter/+page.svelte`
+- `src/routes/flight-booker/+page.svelte`
+- `src/routes/timer/+page.svelte`
+- `src/routes/crud/+page.svelte`
+- `src/routes/circle-drawer/+page.svelte`
+- `src/routes/cells/+page.svelte`
+
+## Rendering Design Document
+The design document is rendered on the webpage for easy access and reference. It provides an overview of the project structure, technology stack, and implementation details.
 
 ## Routing
 SvelteKit's file-based routing will be used to navigate between tasks. Each task will have its own route based on the component file name.
