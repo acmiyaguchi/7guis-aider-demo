@@ -3,7 +3,7 @@
   let designContent = '';
 
   onMount(async () => {
-    const response = await fetch('/docs/DESIGN.md');
+    const response = await fetch('/src/docs/DESIGN.md');
     designContent = await response.text();
   });
 </script>
