@@ -9,6 +9,7 @@
 </script>
 
 <main>
+  <p>This task allows booking a one-way or return flight.</p>
   <h1>Flight Booker</h1>
   <select bind:value={flightType}>
     <option value="one-way">One-way</option>

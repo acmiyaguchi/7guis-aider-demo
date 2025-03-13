@@ -22,6 +22,7 @@
 </script>
 
 <main>
+  <p>This task is a countdown timer with start, stop, and reset functionality.</p>
   <h1>Timer</h1>
   <div>{time} seconds</div>
   <button on:click={start}>Start</button>

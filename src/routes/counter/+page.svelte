@@ -11,6 +11,7 @@
 </script>
 
 <main>
+  <p>This task is a simple counter that can be incremented and decremented.</p>
   <h1>Counter</h1>
   <button on:click={decrement}>-</button>
   <span>{count}</span>

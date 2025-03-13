@@ -7,6 +7,7 @@
 </script>
 
 <main>
+  <p>This task is a simple spreadsheet-like application.</p>
   <h1>Cells</h1>
   <table>
     {#each cells as row, rowIndex}
